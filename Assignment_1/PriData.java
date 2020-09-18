@@ -22,5 +22,14 @@ System.out.println("x3= " +x3);
 System.out.println("y3= " +y3);
 System.out.println("z3= " +z3);
 
+ //Expression D//
+ boolean x4 = true;
+ boolean y4 = false;
+ boolean z4 = x4 && y4 || !(x4 || y4); 
+
+ System.out.println("x4= : "+x4);	
+ System.out.println("y4 : "+y4);
+ System.out.println("z4 : "+z4); 
+
 }
 }
