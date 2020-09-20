@@ -6,7 +6,7 @@ public class PrimeInRange{
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter the range for Prime numbers.");
+		System.out.println("Enter the range for finding the prime numbers.");
 		long start = sc.nextLong();
 		long end = sc.nextLong();
 		boolean flag = false;
@@ -36,4 +36,4 @@ public class PrimeInRange{
 			}
 		}
 	}
-} 
+}
