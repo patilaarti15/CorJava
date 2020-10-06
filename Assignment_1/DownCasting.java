@@ -1,9 +1,10 @@
-class DownCasting{
-public static void main (String args[])
-{
-short s1=10;
-short s2=100;
-byte b1=(byte)(s1+s2);
-System.out.println("The value in byte is: "+b1);
-}
+class Byte{
+	public static void main(String args [])
+	{
+		byte a = 127;
+		byte b = 10;
+		int z = a + b;
+		byte sum = (byte)z;
+		System.out.println("sum = "+sum);
+	}
 }
